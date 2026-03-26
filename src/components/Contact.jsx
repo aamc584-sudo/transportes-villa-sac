@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className="info-icon"><Phone size={28} /></div>
                 <div className="info-text">
                   <h4>Teléfonos</h4>
-                  <p>+51 987 654 321</p>
+                  <p>+49 987 654 321</p>
                   <p>(01) 456-7890</p>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Contact = () => {
 
             <div className="whatsapp-box">
               <p>Atención Inmediata</p>
-              <a href="#" className="btn btn-whatsapp">
+              <a href="https://wa.me/49987654321" target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp">
                 <MessageCircle size={20} className="mr-2" /> Escríbenos por WhatsApp
               </a>
             </div>
@@ -84,7 +84,7 @@ const Contact = () => {
               <div className="form-grid">
                 <div className="form-group">
                   <label htmlFor="telefono">Teléfono / Celular *</label>
-                  <input type="tel" id="telefono" name="telefono" value={formData.telefono} onChange={handleChange} required placeholder="+51 999 999 999" />
+                  <input type="tel" id="telefono" name="telefono" value={formData.telefono} onChange={handleChange} required placeholder="+49 999 999 999" />
                 </div>
                 <div className="form-group">
                   <label htmlFor="correo">Correo Electrónico *</label>

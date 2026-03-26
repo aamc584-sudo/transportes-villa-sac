@@ -32,7 +32,7 @@ const Header = () => {
       <div className="header-top">
         <div className="container header-top-content">
           <span className="contact-item">
-            <Phone size={14} /> +51 987 654 321
+            <Phone size={14} /> +49 987 654 321
           </span>
           <span className="contact-item hidden-mobile">
             Líderes en transporte de carga pesada a nivel nacional
