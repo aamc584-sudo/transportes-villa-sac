@@ -1,5 +1,6 @@
 import React from 'react';
 import { Settings, ShieldCheck, Zap } from 'lucide-react';
+import fleetTruck from '../assets/fleet-truck.png';
 import './Fleet.css';
 
 const Fleet = () => {
@@ -12,8 +13,8 @@ const Fleet = () => {
         </p>
 
         <div className="fleet-content">
-          <div className="fleet-image-placeholder">
-            <div className="placeholder-text">IMAGEN: FLOTA DE CAMIONES</div>
+          <div className="fleet-image-container">
+            <img src={fleetTruck} alt="Flota de camiones modernos de Transportes Villa SAC" className="fleet-image" />
           </div>
           <div className="fleet-text">
             <h3 className="fleet-heading">Capacidad y Operatividad Segura</h3>
